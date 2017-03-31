@@ -35,18 +35,20 @@
    	 		</div>
 
    	 		<div class='container summary'>
-   	 			<h2>Summary</h2>
+   	 			<h2>Problem Statement</h2>
  				<br/>
  				<p>
- 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis vitae neque nec consequat. Vestibulum ornare, magna quis consectetur tincidunt, diam quam ultrices sem, nec euismod justo tortor et augue. Suspendisse molestie nulla vel orci tincidunt, in ultricies mauris posuere. Nunc pharetra interdum arcu, id dictum elit pretium nec. Aenean mattis velit sit amet ligula placerat luctus. Vestibulum eu ex vel nunc suscipit suscipit et sed nisi. Phasellus eu est arcu. Maecenas diam neque, consequat eu orci et, malesuada congue nisi. Pellentesque vitae dignissim odio. Cras ac sapien ac diam venenatis pellentesque ut quis urna. Cras arcu ex, eleifend luctus turpis sit amet, hendrerit vehicula nulla. Nulla volutpat urna diam, quis lobortis diam volutpat rhoncus.
+ 					NSF is building the National Ecological Observatory Network (NEON), a platform of over 81 different observatory sites, meant to conduct intensive monitoring across different ecosystems in the United States. NEON data products will range from field sampling, to landscape scale Airborne Observation Platform (AOP) remote sensing data. The volume, velocity, and variety of data generated is so complex and big to require interdisciplinary skills such as ecology, computer science, statistics, and data science to be dealt with. For this reason, we are proposing an applied, multidisciplinary, multi-modal, big data challenge to NIST Data Science Evaluation (DSE) series. We envision that aligning DSE with NEON has the potential to result in developing pioneer interdisciplinary approaches and large gains in knowledge that would not have been possible otherwise. These methods will represent the stepping stone of analyses linking AOP data with field measurements of both forest structure and species composition. In this initial challenge we will focus on data from a single location, the Ordway-Swisher Biological Station (OSBS) in north-central Florida. In subsequent challenges, data from across multiple sites will be used; overlapping species will be used to evaluate task specific model reusability across sites.
 				</p>
 				<p>
-					Fusce auctor nulla in odio volutpat rhoncus. Duis sit amet nisl orci. Nullam sit amet felis eu urna placerat lacinia et nec tellus. Praesent at lacus viverra, malesuada lectus at, convallis est. Aenean ac fermentum enim, non placerat mauris. Nullam quis blandit nisi. Vivamus volutpat eros non dolor auctor, sed aliquet tortor pharetra.
+					NEON collects a wide spectra of biological, physical, chemical and ecological data. It centrally processes them to derive standard quality data products. NEON provides over 120 high level data products (apart from hundreds of low-level data) along with associated metadata, designs, data collection and data processing documentation. AOP data include remote sensing hyperspectral raster images, LiDAR point clouds, and high resolution color images. This kind of data has been traditionally used for ecosystem structure and species classification. For this big data challenge, we propose to use data science techniques to identify forest structure and species classification. 
+				</p>
+				<p>
+					For this pilot we focus on three tasks:
 				</p>
 			</div>
 
 			<div class='container tasks'>
-				<h2>Tasks</h2>
 				<br/>
 				<p>
 					<ul class='h4'>
@@ -62,7 +64,10 @@
 				<h2>Individual Tree Crown Delineation</h2>
 				<br/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis vitae neque nec consequat. Vestibulum ornare, magna quis consectetur tincidunt, diam quam ultrices sem, nec euismod justo tortor et augue. Suspendisse molestie nulla vel orci tincidunt, in ultricies mauris posuere. Nunc pharetra interdum arcu, id dictum elit pretium nec. Aenean mattis velit sit amet ligula placerat luctus. Vestibulum eu ex vel nunc suscipit suscipit et sed nisi. Phasellus eu est arcu. Maecenas diam neque, consequat eu orci et, malesuada congue nisi. Pellentesque vitae dignissim odio. Cras ac sapien ac diam venenatis pellentesque ut quis urna. Cras arcu ex, eleifend luctus turpis sit amet, hendrerit vehicula nulla. Nulla volutpat urna diam, quis lobortis diam volutpat rhoncus.
+					The first step in species identification is determining the boundaries of each individual's crown. Knowing crowns perimeter is fundamental to group pixels assumed to share a similar spectral behavior, address intra/inter individual variability, and facilitate species identification.  Once an individual is attributed to its species (Classification task), it could be possible to investigate a whole range of ecological questions such as communities structuring, biodiversity, biomass and macronutrients cycling. Hyperspectral, LiDAR and high resolution RGB photographs can be used to determine the boundaries of each crown using segmentation algorithms such as graph cuts. However, this task is not trivial, especially for those situations where the canopy is close, crowns may be overlapping, and the spectral signature difference between boundary pixels is smoother. In such a situation, crown delineation may easily end up in producing a different number of crowns than observed on the ground, and/or underestimate some crown's perimeter in favor to their neighbors. In such a situation, also LiDAR data can erroneously estimate individual point heights in the cloud, due to inconsistencies in the GPS signal.
+				</p>
+				<p>
+					Participants in the pilot will be asked to correctly locate and delineate individual crowns for the provided area. We will provide aligned Field data, AOP LiDAR, RGB, and hyperspectral images, plus a sample of ITC data to train the model. The algorithm will produce an .shp file representing the mosaic of each individual's crown area, with pixel resolution of 0.25 x 0.25 m.  
 				</p>
 				<br/>
 				<img src="http://www.mdpi.com/remotesensing/remotesensing-05-06461/article_deploy/html/images/remotesensing-05-06461f5-1024.png" class="img-responsive img-rounded center-block" style='width:30%' alt="Responsive image">
@@ -74,7 +79,13 @@
 				<h2>Crown Alignment</h2>
 				<br/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis vitae neque nec consequat. Vestibulum ornare, magna quis consectetur tincidunt, diam quam ultrices sem, nec euismod justo tortor et augue. Suspendisse molestie nulla vel orci tincidunt, in ultricies mauris posuere. Nunc pharetra interdum arcu, id dictum elit pretium nec. Aenean mattis velit sit amet ligula placerat luctus. Vestibulum eu ex vel nunc suscipit suscipit et sed nisi. Phasellus eu est arcu. Maecenas diam neque, consequat eu orci et, malesuada congue nisi. Pellentesque vitae dignissim odio. Cras ac sapien ac diam venenatis pellentesque ut quis urna. Cras arcu ex, eleifend luctus turpis sit amet, hendrerit vehicula nulla. Nulla volutpat urna diam, quis lobortis diam volutpat rhoncus.
+					To guarantee good results in scaling up ecological patterns from field to remote sensing, NEON scientists are focusing on aligning different data sources. This process is however tricky, and state of the art products show un-trivial and non-negligible misalignments that need to be taken care of. Airborne data georeferencing and orthorectification occurs using equipment calibrated and mounted on the airplane, making use of a combination of data including LiDAR tilt angle of the pulse, plane GPS coordinates, speed of light, and Inertial Measurement Unit (IMU) coordinates (heading, pitch and roll). Field data, on the other hand, are georeferenced using a hand-held GPS. This process is prone to errors due to limited landmark capabilities and no-line-of-sight, especially when dense vegetation exacerbates GPS signals and accuracy. As a consequence, pixels supposed to be aligned between the two product families, can show offsets greater than 5m. Such offsets may produce mismatching individual stem characteristics or ground measured spectra, compromising the quality of the following two tasks. 
+				</p>
+				<p>
+					Participants in the pilot will be asked to correct field-airborne data misalignment, by using NEON vegetation field data, AOP remote sensing, and a subset of ITC data. 
+					In summary:
+					Input: NEON vegetation field GPS tree locations, individual IDs, stem and crown diameters, hyperspectral, LiDAR, and a subset of ITC data.
+					Output: stem id, center position, latitude and longitude offset, for all ITC data not provided for training.
 				</p>
 				<br/>
 				<img src="http://www.mdpi.com/remotesensing/remotesensing-05-06461/article_deploy/html/images/remotesensing-05-06461f5-1024.png" class="img-responsive img-rounded center-block" style='width:30%' alt="Responsive image">
@@ -85,7 +96,7 @@
 				<h2>Species Classification</h2>
 				<br/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis vitae neque nec consequat. Vestibulum ornare, magna quis consectetur tincidunt, diam quam ultrices sem, nec euismod justo tortor et augue. Suspendisse molestie nulla vel orci tincidunt, in ultricies mauris posuere. Nunc pharetra interdum arcu, id dictum elit pretium nec. Aenean mattis velit sit amet ligula placerat luctus. Vestibulum eu ex vel nunc suscipit suscipit et sed nisi. Phasellus eu est arcu. Maecenas diam neque, consequat eu orci et, malesuada congue nisi. Pellentesque vitae dignissim odio. Cras ac sapien ac diam venenatis pellentesque ut quis urna. Cras arcu ex, eleifend luctus turpis sit amet, hendrerit vehicula nulla. Nulla volutpat urna diam, quis lobortis diam volutpat rhoncus.
+					Using AOP airborne data and field measurements, determine the species of each tree in the area covered by AOP images themselves. Individual spectral signature will be provided only for a limited number of individuals (NEON ASD files), potentially not for each species in the area. Hence, participants will have to recognize species specific reflectance signature by analyzing patterns of crowns known to be of that particular species. The use of external spectral information recollected in literature will be allowed, as long as it is publicly available. Participants will develop classification algorithms whose output will be an array containing the probability that the ith specific individual belongs to the jth species. We will expect a vector of probabilities for each crown, hence pixel specific classification will be upscaled to the crown object they belong to, and may be used to evaluate the degree of uncertainty linked to the classification.
 				</p>
 				<br/>
 				<img src="https://www.researchgate.net/profile/Christian_Ginzler/publication/228689429/figure/fig2/AS:340868130197522@1458280703761/Figure-3-Tree-species-classification-maps-based-on-imagery-from-May-2007-top-July.jpg" class="img-responsive img-rounded center-block" style='width:30%' alt="Responsive image">
