@@ -1,6 +1,5 @@
 ---
-layout: page
-title:
+layout: default
 ---
 
 ## Data-Science competition for ecological data
