@@ -1,8 +1,9 @@
 ---
 layout: page
+title:
 ---
 
-## A Data-Science competition for ecological data
+## Data-Science competition for ecological data
 
 Scaling-up ecological patterns and processes is crucial to understanding the
 effects of environmental change on natural systems and human society. We are
