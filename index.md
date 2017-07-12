@@ -33,7 +33,7 @@ resolution RGB imagery, and LiDAR data on plant height.
 ## Find out more
 
 * [Enter your email](register) to hear more soon
-* [Read the full plan for the competition](eval_plan.pdf)
+* [Read the full plan for the competition](eval_plan.pdf) (details subject to change)
 * Competition starts in late August
 
 ## About the Data Science Challenge
