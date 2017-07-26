@@ -15,6 +15,8 @@ global scales.
 Anyone is welcome to participate. Work as teams or
 individuals. **[Sign up](register)** to hear more.
 
+The competition will begin on September 1, 2017.
+
 ## Data
 
 * **Airborne remote sensing**: High resolution hyperspectral imagery, higher
