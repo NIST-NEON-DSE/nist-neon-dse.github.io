@@ -37,7 +37,8 @@ resolution RGB imagery, and LiDAR data on plant height.
 
 * [Enter your email](register) to hear more soon
 * [Read the full plan for the competition](eval_plan.pdf) (details subject to change)
-* Competition starts in late August
+* [Frequently asked questions](faq)
+* The competition will begin on September 1, 2017
 
 ## About the Data Science Challenge
 
