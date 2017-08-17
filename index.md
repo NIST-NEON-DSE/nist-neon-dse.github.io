@@ -47,7 +47,9 @@ resolution RGB imagery, and LiDAR data on plant height.
 ## About the Data Science Challenge
 
 * Sponsored by the National Institute of Standards and Technology (NIST) Data
-  Science Evaluation (DSE) Series
+  Science Evaluation (DSE) Series and the Gordon and Betty Moore Foundation’s
+  Data-Driven Discovery Initiative through grant
+  [GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563).
 * Organized by the Data Science Research lab, the WEecology lab, and Stephanie
   Bohlman's lab all at the University of Florida.
 * The data is collected by National Ecological Observatory Network (NEON) from
