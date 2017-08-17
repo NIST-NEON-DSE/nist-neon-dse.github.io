@@ -28,6 +28,7 @@ resolution RGB imagery, and LiDAR data on plant height.
 ![alt text](images/conceptual_figure.png)
 
 ## The tasks
+
 * **Crown Delineation**: Estimate the size, shape, and location of individual tree crowns
 * **Alignment**: Pair trees measured on the ground with those identified in
   remote sensing
@@ -39,6 +40,9 @@ resolution RGB imagery, and LiDAR data on plant height.
 * [Read the full plan for the competition](eval_plan.pdf) (details subject to change)
 * [Frequently asked questions](faq)
 * The competition will begin on September 1, 2017
+* This is a pilot, so if we have a lot of interest we may have to limit the
+  total number of participants, but we'll be running a full unlimited version of
+  the challenge next year.
 
 ## About the Data Science Challenge
 
