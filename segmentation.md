@@ -96,6 +96,8 @@ corresponding ground truth polygon. When there is ambiguity with regard to which
 submitted polygon corresponds to which ITC, we will choose the mapping that
 gives the best score to the participant.
 
+![Equation describing Jaccard Coefficient](images/task_1_eval_metric.png)
+
 The score for this task is the average of the plot level scores, which are
 themselves the average scores of the polygons within each plot.  This method is
 simple, does not require assignment of predicted crowns to specific ITCs by the
