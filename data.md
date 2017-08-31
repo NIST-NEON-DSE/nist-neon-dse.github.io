@@ -50,7 +50,6 @@ Seven datasets will be used as part of this evaluation:
      standard grid.  Figure 1 illustrates these core data types. All data
      collected by NEON are publicly available with open licenses. The subset of
      data needed for this DSE will be posted on the DSE website for download.
-     Screen Shot 2017-05-10 at 12.01.26 PM.png
 
 ![Figure showing example of each data product](images/figure1.png)
 
