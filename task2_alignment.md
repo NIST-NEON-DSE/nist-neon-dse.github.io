@@ -60,6 +60,7 @@ The submission files will include one *csv* file for each test plot named *itc_g
 ### 4.5 Performance Metrics
 Performance of the pairing of field stems to ITC crowns will be evaluated using the trace of the prediction matrix divided by the sum over the values in that matrix. This method was chosen based on the following reasoning. In the testing stage, suppose we have a set of probe data (ITC) denoted as {pn|n=1,..,N}, and ground truth data denoted as {gn|n=1,..,N},. We know in advance that there is a unique one-to-one mapping between P and G sets. Without loss of generality, assume pn should be mapped to gn for n=1,..,N. For each probe data point pi, a program predicts a non-negative conﬁdence score that  should be aligned with ground truth data point gj, which forms a prediction matrix M = (mi,j) where i,j = 1,...,N. Then, the quality of prediction can be measured by the following scoring function:
 
-![legend](nist-neon-dse.github.io/images/task2_score.png)
+
+![evaluation_metric_allignment](images/task2_score.png)
 
 where trace(∙) represents trace of a matrix and M represents the prediction matrix which has been aligned in the order which matches the ground truth.
