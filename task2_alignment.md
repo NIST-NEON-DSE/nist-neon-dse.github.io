@@ -10,11 +10,13 @@ title: 'Task 2: Alignment'
 Alignment is a common Data Science problem that involves associating two or more representations of the same object. One common instance of this problem is identifying the same object in data collected from different instruments or data sources.
 
 ### Summary: Alignment
-`Inputs:` ITC data, Ground data. Optional: Hyperspectral images, RGB images, LiDAR data
-`Output:` Labels relating the ITC crown ID to the Ground data stem ID for each tree
-`Training Files:` ground_train.csv, itc_ground_relation_train.csv, Optional: hyper_plot.tiff, hyper_bands.csv, chm_plot.tiff, ptcloud_plot.csv, rgb_plot.tif
-`Test Files:` itc_ground_relation_test.shp, ground_test.csv, Optional: hyper_plot.tiff, chm_plot.tiff, ptcloud_plot.csv, rgb_plot.tiff
-`Submission Files:` itc_ground_relation_subm_plot.csv
+
+ `Inputs:` ITC data, Ground data. Optional: Hyperspectral images, RGB images, LiDAR data.  
+ `Output:` Labels relating the ITC crown ID to the Ground data stem ID for each tree.  
+ `Training Files:` ground_train.csv, itc_ground_relation_train.csv, Optional: hyper_plot.tiff, hyper_bands.csv, chm_plot.tiff, ptcloud_plot.csv, rgb_plot.tif.  
+ `Test Files:` itc_ground_relation_test.shp, ground_test.csv, Optional: hyper_plot.tiff, chm_plot.tiff, ptcloud_plot.csv, rgb_plot.tiff.  
+ `Submission File:` itc_ground_relation_subm_plot.csv.
+
 
 ### 4.1 Alignment in the ecology domain
 To build models relating remote sensing to field data, it is necessary to align the ground data to the remote sensing images. The three remote sensing datasets have been georeferenced and pre-aligned with one another by NEON. The NEON Ground data are georeferenced separately from the remote sensing data using a combination of GPS locations for fixed points and surveying methods to relate tree locations to those fixed points. Both the remote sensing and ground data coordinates  involve measurement error, with the error likely being greater in the ground data. In addition, the ground data provides a location for the trunk of the tree, which is not directly visible in the remote sensing data. The trunk is not always located at the center of the crown because crowns are positioned in part to maximize light capture and avoid other tree crowns. As a consequence, apparent positions of trees can differ between the ground and remote sensing data sources with offsets of up to several meters even when no other errors have occurred with geo-referencing. Such offsets make it more difficult to develop models that related the ground and remote sensing data.
