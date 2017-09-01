@@ -10,10 +10,10 @@ Classification is a common Data Science problem that involves determining which 
 ### Summary: Classification
 
 `Inputs:` Ground data on species and genus IDs combined with Hyperspectral and CHM values for each pixel within the ITC for the tree
-`Output:` A probability that each tree belongs to each possible species
-`Training Files:` species_id_train.csv, crown_hyper_train.csv, hyper_bands.csv
-`Test Files:` crown_hyper_test.csv
-`Submission Files:` species_id_subm.csv
+`Output:` A probability that each tree belongs to each possible species  
+`Training Files:` species_id_train.csv, crown_hyper_train.csv, hyper_bands.csv  
+`Test Files:` crown_hyper_test.csv 
+`Submission Files:` species_id_subm.csv 
 
 ### 5.1 Classification in the ecology domain
 A large number of ecological, environmental, and conservation oriented questions depend on species identification. This includes efforts to conserve individual species, understand and maintain biodiversity, and incorporate the biosphere into global circulation models. Being able to describe the density and distribution of different species using remote sensing would allow these efforts to occur more rapidly and at larger scales than field sampling. The goal of this task is to classify trees in remote sensing data into species and genera (higher level groupings of species). In addition to its utility for the domain, this task represents a challenging version of general classification problems because it involves classifying different species with very similar spectral signatures and categorizing data where some categories (species) have only small samples in the training set (i.e. rare species).
