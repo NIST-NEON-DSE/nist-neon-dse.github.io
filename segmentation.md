@@ -9,11 +9,11 @@ is often important for classification of objects within images.
 
 ### Summary: Segmentation  
  
- `Inputs:` Hyperspectral images, RGB images, and LiDAR point cloud data...  
+ `Inputs:` Hyperspectral images, RGB images, and LiDAR point cloud data.  
  `Output:` Shapefiles containing estimates of the position and shape of
- individual tree crowns (ITC data)...  
+ individual tree crowns (ITC data).  
  `Training Files:` ITC_OSBS_plot.shp, OSBS_plot_hyper.tiff, hyper_bands.csv,
- OSBS_plot_chm.tiff, ptcloud_plot.csv, rgb_plot.tiff...  
+ OSBS_plot_chm.tiff, ptcloud_plot.csv, rgb_plot.tiff.  
  `Test Files:` hyper_plot.tiff, chm_plot.tiff, ptcloud_plot.csv, rgb_plot.tiff  
  Submission File: itc_subm_plot.shp (including all 4 sub files; .shp, .shx, .dbf, .prj)
 
