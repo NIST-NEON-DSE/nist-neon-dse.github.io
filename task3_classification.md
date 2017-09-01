@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Task 2: Alignment'
+title: 'Task 3: Classification'
 
 ---
 
