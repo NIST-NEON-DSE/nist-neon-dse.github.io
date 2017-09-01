@@ -56,5 +56,8 @@ The files should contain one row for each possible crown_id and genus/species co
 We will evaluate performance using two metrics. The first one, rank-1 accuracy, is the fraction of crowns in the test set whose ground truth species_id (or genus_id) was assigned the highest probability by the participant. It is calculated as mean(argmax_k(p_{ik})==g_i), where g_i is the ground-truth class of crown i, and  p_{ik} is the probability assigned by the participant that crown i belongs to class k. This metric only considers whether the correct class has the highest probability, not whether the probabilities are well-calibrated.
 The second metric, average cross-entropy, is defined as:
 
+![Evaluation_metric_classification](images/task_3_eval_metric.png)
+
+
 given that pnk ≠ 0, to avoid the singularity. The δ(x, y) is an indicator function that takes value 1 when x = y. This metric rewards participants for submitting well-calibrated probabilities that reflect their uncertainty about which crowns belong to which class.
 Performance metrics will be evaluated on the two different class labels (genus and species) separately, resulting in four separate scores. Note that the “Other” label will be included alongside the biological species and genus names in calculating these performance metrics.
