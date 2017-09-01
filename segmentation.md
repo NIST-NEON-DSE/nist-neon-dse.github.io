@@ -58,21 +58,21 @@ rgb_*plot*.tiff where plot indications the numeric code of the plot of each plot
   GIS software and GDAL).
 * Each of the geotiff files contain the values for each band, the dimensions of
   the 2D or 3D space, and the spatial location information.
-   * Hyperspectral - 426 bands on an 80 x 80 pixel lattice at 1 m2 resolution
-   * CHM (canopy height model) - 1 band on an 80 x 80 pixel lattice at 1 m2 resolution
-   * RGB - 3 bands on a 320 x 320 pixel lattice at 0.0625 m2 resolution
+   * `Hyperspectral` - 426 bands on an 80 x 80 pixel lattice at 1 m2 resolution
+   * `CHM` (canopy height model) - 1 band on an 80 x 80 pixel lattice at 1 m2 resolution
+   * `RGB` - 3 bands on a 320 x 320 pixel lattice at 0.0625 m2 resolution
 * Information on hyperspectral bands, including which bands should be ignored,
   will be provided in a 3 column csv file named hyper_bands.csv.
-   * band_name: the name of the band formatted as band_number
-   * nanometer: the spectrum value
-   * noise: 0 indicates that the band is good to use, 1 indicates that it is
+   * `band_name`: the name of the band formatted as band_number
+   * `nanometer`: the spectrum value
+   * `noise`: 0 indicates that the band is good to use, 1 indicates that it is
      strongly influenced by the absorbance of atmospheric water and should be
      excluded from most analyses
 * The point cloud data will be provided as a 3 column csv file with the *x*,
   *y*, and *z* coordinates of of each LIDAR return/point.
-   * *x*: utm coordinates *m*
-   * *y*: utm coordinates in *m*
-   * *z*: height in m above sea level
+   * `x`: utm coordinates *m*
+   * `y`: utm coordinates in *m*
+   * `z`: height in m above sea level
 
 ### 3.3 Test Data
 
