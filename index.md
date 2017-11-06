@@ -13,9 +13,9 @@ in forests. This will allow forests to be studied in detail at regional to
 global scales. 
 
 Anyone is welcome to participate. Work as teams or
-individuals. **[Sign up](register)** to hear more.
+individuals. **[Sign up](register)**.
 
-The competition will begin on September 1, 2017.
+The competition is open. The deadline for submissions is December 15th, 2017.
 
 ## Data
 
@@ -36,13 +36,12 @@ resolution RGB imagery, and LiDAR data on plant height.
 
 ## Find out more
 
-* [Enter your email](register) to hear more soon
+* [Enter your email](register) to hear more
 * [Read the full plan for the competition](eval_plan.pdf) (details subject to change)
 * [Frequently asked questions](faq)
-* The competition will begin on September 1, 2017
-* This is a pilot, so if we have a lot of interest we may have to limit the
-  total number of participants, but we'll be running a full unlimited version of
-  the challenge next year.
+* Submissions are due by December 15th, 2017
+* This is a pilot, so there maybe be some issues to work out along the way. We'll
+  be running a full version of the challenge next year.
 
 ## About the Data Science Challenge
 
