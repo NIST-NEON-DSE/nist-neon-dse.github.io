@@ -34,7 +34,7 @@ Stephanie Bohlman is an Assistant Professor in the Forest Resources and Conserva
 
 **Sarah Graves**:
 
-![sarah](images/Sarah.jpg)
+![sarah](images/Sarah.jpeg)
 
 Sarah J Graves currently is a PhD Candidate at the School of Forest Resources and Conservation, University of Florida, and currently works at University of Wisconsin Madison. She is advised by Dr Bohlman.
 
