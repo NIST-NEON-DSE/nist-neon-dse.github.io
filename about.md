@@ -46,6 +46,6 @@ Ethan White:
 Ethn White is  an Associate Professor, Dept. Wildlife Ecology & Conservation, University of Florida. He is a cofounder of the WEecology lab, and is interested in data-intensive questions in ecology, using large ecological datasets, advanced statistical/machine learning methods, and theoretical modeling to understand ecological patterns.
 
 Sergio Marconi
-![sergio](images/sergio.jpeg)
+![sergio](images/Sergio.jpg)
 
 Sergio Marconi is currently a PhD student in Interdisciplinary Ecology at University of Florida. He is interesting in predicting functional patterns of vegetation, and is advised by Dr White.
