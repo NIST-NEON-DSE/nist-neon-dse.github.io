@@ -15,7 +15,7 @@ global scales.
 Anyone is welcome to participate. Work as teams or
 individuals. **[Sign up](register)**.
 
-The competition is open. The deadline for submissions is December 15th, 2017.
+The competition is now closed. We will be running a new round on Summer 2018!
 
 ## Data
 
