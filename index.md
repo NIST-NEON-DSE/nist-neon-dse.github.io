@@ -39,9 +39,7 @@ resolution RGB imagery, and LiDAR data on plant height.
 * [Enter your email](register) to hear more
 * [Read the full plan for the competition](eval_plan.pdf) (details subject to change)
 * [Frequently asked questions](faq)
-* Submissions are due by December 15th, 2017
-* This is a pilot, so there maybe be some issues to work out along the way. We'll
-  be running a full version of the challenge next year.
+* We will back in touch on Summer 2018. We'll be running a full version of the challenge next year.
 
 ## About the Data Science Challenge
 
