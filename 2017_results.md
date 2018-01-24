@@ -12,7 +12,7 @@ Now, I am happy to declare winners and scores of everybody competing: Congratula
 
 ### Task 1: Delineation
 
-Congratulation to FEM group! They showed that  the method 4 of Dalponte et al. 2015 (itcIMG of the itcSegment R package) was the best method out of the three applied to the dataset (Table 1).
+Congratulation to FEM group! They showed that  the method 4 of Dalponte et al. 2015 (itcIMG of the itcSegment R package) was the best method out of the three applied to the dataset (Table 1). 
 
 ![Figure showing scoring table task1](images/task1table.png)
 
