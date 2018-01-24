@@ -14,7 +14,7 @@ Now, I am happy to declare winners and scores of everybody competing: Congratula
 
 Congratulation to FEM group! They showed that  the method 4 of Dalponte et al. 2015 (itcIMG of the itcSegment R package) was the best method out of the three applied to the dataset (Table 1). 
 
-![Figure showing scoring table task1](images/task1table.png)
+![Figure showing scoring table task1](images/task1_table.png)
 
 *Table 1. Scoring table. Participants have been ranked by the pairwise Jaccard Coefficient.*
 
@@ -23,7 +23,7 @@ Congratulation to FEM group! They showed that  the method 4 of Dalponte et al. 2
 
 Congratulation to FEM group! They showed that the Euclidean distance between ground points and the ITCs, was the best method out of the two applied to the dataset (Table 2). The distance was calculated on four axes: X coordinate, Y coordinate, the height and the crown radius.  
 
-![Figure showing scoring table task2](images/task2table.png)
+![Figure showing scoring table task2](images/task2_table.png)
 
 *Table 2. Scoring table. Participants have been ranked by the trace of the prediction matrix, divided by the sum over the values in that matrix.*
 
@@ -32,6 +32,6 @@ Congratulation to FEM group! They showed that the Euclidean distance between gro
 
 Congratulation to StanfordCCB group! They showed that a three step process was the best method applied to the data: (1) dimensionality reduction; (2) multi-label classification algorithms, and; (3) ensembles (Table 3).  
 
-![Figure showing scoring table task3](images/task3table.png)
+![Figure showing scoring table task3](images/task3_table.png)
 
 *Table 3. Scoring table. Participants have been ranked by the cross entropy cost. Rank-1 Accuracy provided in the forth column.*
