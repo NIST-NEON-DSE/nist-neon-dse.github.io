@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2017 Pre pilot
+title: 2017 Results
 ---
 
 ### Congratulation everybody!
