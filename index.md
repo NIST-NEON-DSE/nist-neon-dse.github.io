@@ -3,19 +3,23 @@ layout: default
 title: Home
 ---
 
-## Data-Science competition for ecological data
+## IDTreeS data science challenge
 
-Scaling-up ecological patterns and processes is crucial to understanding the
-effects of environmental change on natural systems and human society. We are
-piloting a Data Science Challenge to help scientist do this better by using
-remote sensing from low flying airplanes to infer the location and type of trees
-in forests. This will allow forests to be studied in detail at regional to
-global scales. 
+Understanding and managing forests is crucial to understanding and potentially
+mitigating the effects of climate change, invasive species, and shifting land
+use on natural systems and human society. However, collecting data on individual
+trees in the field is expensive and time consuming, which limits the scales at
+which this crucial data is collected. Remotely sensed imagery from satellites,
+airplanes, and drones provide the potential to observe ecosystems at much larger
+scales than is possible using field data collection methods alone. This data
+science competition focuses on using remote sensing data to quantify the
+locations, sizes and species identities of millions of trees and on determining
+how these methods generalize to other forests.
 
-Anyone is welcome to participate. Work as teams or
-individuals. **[Sign up](register)**.
+The next round of this challenge will begin in late 2019. Anyone is welcome to
+participate, working as teams or individuals.
 
-The competition is now closed. We will be running a new round on Summer 2018!
+**[Sign up to receive more information in the next few weeks.](register)**
 
 ## Data
 
@@ -27,26 +31,21 @@ resolution RGB imagery, and LiDAR data on plant height.
 
 ![alt text](images/conceptual_figure.png)
 
-## The tasks
+## Tasks
 
 * **Crown Delineation**: Estimate the size, shape, and location of individual tree crowns
-* **Alignment**: Pair trees measured on the ground with those identified in
-  remote sensing
 * **Classification**: determine the species identity of each tree from remotely sensed data
 
 ## Find out more
 
 * [Enter your email](register) to hear more
-* [Read the full plan for the competition](eval_plan.pdf) (details subject to change)
-* [Frequently asked questions](faq)
-* We will back in touch on Summer 2018. We'll be running a full version of the challenge next year.
 
 ## About the Data Science Challenge
 
-* Sponsored by the National Institute of Standards and Technology (NIST) Data
-  Science Evaluation (DSE) Series and the Gordon and Betty Moore Foundation’s
-  Data-Driven Discovery Initiative through grant
-  [GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563).
+* Sponsored by the National Science Foundation (NSF) through grant
+  [1926542](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1926542&HistoricalAwards=false)
+  and the Gordon and Betty Moore Foundation’s Data-Driven Discovery Initiative
+  through grant [GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563).
 * Organized by the Data Science Research lab, the WEecology lab, and Stephanie
   Bohlman's lab all at the University of Florida.
 * The data is collected by National Ecological Observatory Network (NEON) from

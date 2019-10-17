@@ -1,13 +1,11 @@
 ---
-layout: default
-title: 2017 Results
+layout: page
+title: Results - 2017
 ---
 
-### Congratulation everybody!
+## Results - 2017
 
-It was fun, and it couldn't have been nicer as a pre pilot! We will be running the competition again next year, and we hope to have you all benchmarching your algorithms to our old and new data!
-
-Now, I am happy to declare winners and scores of everybody competing: Congratulations to the FEM and the StanfordCCB groups!
+The results of the 2017 competition have now been published as [a paper collection](https://peerj.com/collections/56-remotesensingcomp/). The main results are described in [the central paper](https://doi.org/10.7717%2Fpeerj.5843) and the details are available in papers by the participants in the collection. The main score comparisons for the primary tasks are listed below.
 
 
 ### Task 1: Delineation
